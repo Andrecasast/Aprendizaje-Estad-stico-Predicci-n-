@@ -7,7 +7,7 @@ st.title("Predicción del Rendimiento Académico")
 st.write("Ingrese los datos para obtener la predicción.")
 
 # Cargar modelo
-model = joblib.load("modelo_rendimiento(1).pkl")
+model = joblib.load("modelo_rendimiento.pkl")
 
 # Entradas
 horas_uso = st.number_input("Horas de uso diario de redes", 0.0, 24.0, 3.0)
